@@ -18,11 +18,13 @@ let shoes = 89.78;
 
 
 // 1. If divided evenly, how much would each sibling get for the week?
+console.log(129 / 3) 
 
 // 2. How many games can Jordan buy with their cut?
+console.log(2)
 
 // 3. The cost of games just went up by a dollar and shoes are on sale at 50% (half) off. Change the variables to their new prices.
-
+console.log()
 // 4. Quinn and Ricardo are twins. If they put their money together, how many on sale shoes can they buy in a month (4 weeks)?
 
 // 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
@@ -74,7 +76,7 @@ const addNums = (x, y) => {
 
 /// b. Prints a special message if name is "Beyonce"
 const isBeyonce = (name) => {
-    if( ) { 
+    if(x) { 
         return "Welcome Queen!";
     } else {
         return `Sorry {name}, you're not Beyonce`;
@@ -87,7 +89,7 @@ const isBeyonce = (name) => {
 /// c. If the number is even, return the number divided by 2, otherwise, return the number
 /// For example reduceEvens(10) => 5 -- reduceEvens(11) => 11
 const reduceEvens = (x) => {
-    if( ){
+    if(x){
 
     } else {
         return x;
