@@ -15,8 +15,6 @@ let sibling3 = "Ricardo Montoya De La Rosa Ramirez";
 let game = 15.99;
 let shoes = 89.78;
 
-
-
 // 1. If divided evenly, how much would each sibling get for the week?
 let string1 = "Each sibling, if split evenly, would have $" + weeklyAllowance/3 + "."
 console.log(string1);
@@ -35,11 +33,20 @@ console.log(`The cost of games would go up to $${gamePrice}, and the cost of sho
 
 // 4. Quinn and Ricardo are twins. If they put their money together, how many on sale shoes can they buy in a month (4 weeks)?
 // $86 combined
+const gha = (x) => {
+    if (x.length<=10){
+        return x;
+    }
+    else {
+        return x.substring(0,7);
+    }
+}
 
-
+console.log(`If ${sibling2} and ${gha(sibling3)} were to put their money together, they would be able to buy 7 pairs of shoes in a month.`);
 
 
 // 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
+console.log(`If ${sibling2} and ${gha(sibling3)} were to put their money together, they would be able to buy 20 games in a month.`);
 
 // 6. Print out the three siblings' names. "The three siblings are __, __, and ___."
 let string6 = "The three siblings are " + sibling1 + ", " + sibling2 + ", and " + sibling3 + "."
@@ -55,9 +62,19 @@ console.log(sibling3.toUpperCase())
 console.log(sibling3.toLowerCase())
 
 // 10. Use a built-in method to print out Ricardo's name, but with all the instances of the letter a removed or deleted.
-
+console.log(sibling3.replaceAll("a", ""));
 
 // 11. Use a built-in method to print out "De La Rosa"
+const bha = (x) => {
+    if (x.length<=10){
+        return x;
+    }
+    else {
+        return x.substring(16,27);
+    }
+}
+
+console.log(bha(sibling3));
 
 // Medium Challenges
 
